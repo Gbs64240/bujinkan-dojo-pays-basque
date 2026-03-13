@@ -1,0 +1,15 @@
+# robots.txt pour ninjutsu-paysbasque.fr
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.ninjutsu-paysbasque.fr/sitemap.xml
+
+# Crawl-delay (optionnel)
+Crawl-delay: 10
+
+# Bloquer les fichiers inutiles
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /*.php$
