@@ -43,39 +43,61 @@
     
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SportsActivityLocation",
-      "name": "Bujinkan Dojo Pays Basque",
-      "image": "https://www.ninjutsu-paysbasque.fr/photo2.jpg",
-      "description": "Dojo de Ninjutsu traditionnel Bujinkan au Pays Basque. Enseignement des arts martiaux japonais authentiques.",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Salle Mendeala",
-        "addressLocality": "Hasparren",
-        "postalCode": "64240",
-        "addressCountry": "FR"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "43.3833",
-        "longitude": "-1.3000"
-      },
-      "telephone": "+33631313095",
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Wednesday",
-        "opens": "20:30",
-        "closes": "22:00"
-      },
-      "sameAs": [
-        "https://www.facebook.com/share/18J4Lh11yW/",
-        "https://www.tiktok.com/@ninjabasque",
-        "https://www.instagram.com/ninja_basque"
-      ],
-      "priceRange": "$$"
-    }
-    </script>
+{
+  "@context": "https://schema.org",
+  "@type": "SportsActivityLocation",
+  "name": "Bujinkan Dojo Pays Basque",
+  "url": "https://www.ninjutsu-paysbasque.fr",
+  "image": [
+    "https://www.ninjutsu-paysbasque.fr/photo1.jpg",
+    "https://www.ninjutsu-paysbasque.fr/photo2.jpg",
+    "https://www.ninjutsu-paysbasque.fr/photo3.jpg"
+  ],
+  "description": "Dojo de Ninjutsu traditionnel Bujinkan au Pays Basque. Enseignement des arts martiaux japonais authentiques à Hasparren.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Salle Mendeala",
+    "addressLocality": "Hasparren",
+    "postalCode": "64240",
+    "addressRegion": "Nouvelle-Aquitaine",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "43.3833",
+    "longitude": "-1.3000"
+  },
+  "telephone": "+33631313095",
+  "email": "contact@ninjutsu-paysbasque.fr",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Wednesday",
+    "opens": "20:30",
+    "closes": "22:00"
+  },
+  "sameAs": [
+    "https://www.facebook.com/share/18J4Lh11yW/",
+    "https://www.tiktok.com/@ninjabasque",
+    "https://www.instagram.com/ninja_basque"
+  ],
+  "priceRange": "$$",
+  "founder": {
+    "@type": "Person",
+    "name": "Instructeur Bujinkan"
+  },
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": "43.3833",
+      "longitude": "-1.3000"
+    },
+    "geoRadius": "50000"
+  },
+  "keywords": "ninjutsu, bujinkan, arts martiaux, hasparren, pays basque, kunoichi, ninja, dojo, self-defense"
+}
+</script>
+
     
     <style>
         * {
